@@ -7,13 +7,12 @@ console.log(columnas);
 document.write(`<table>
 <tbody>`)
 
-for(let indiceFila = 1; indiceFila <= filas; indiceFila++){
-    document.write(`<table>
-    <tbody>
-        <tr>
-            <td>hola</td>
-            <td>mundo 2</td>
-        </tr>`)
+for(let indiceFila = 0; indiceFila < filas; indiceFila++){
+    document.write(`<tr>`)
+    for(let indiceColumna = 0; indiceColumna < columnas; indiceColumna++){
+        document.write(`<td>hola</td>`)
+        }
+    document.write(`</tr>`)
     }
     document.write(`
     </tbody>
