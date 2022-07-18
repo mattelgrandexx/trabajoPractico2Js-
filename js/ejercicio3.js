@@ -1,3 +1,4 @@
+}
 let fraseCompleta=""
 
 while(confirm("¿Desea ingresar palabras?")){
@@ -5,4 +6,3 @@ while(confirm("¿Desea ingresar palabras?")){
     fraseCompleta = fraseCompleta + "-" + textoIngresado
     console.log(textoIngresado)
     console.log(fraseCompleta)
-}
